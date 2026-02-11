@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "salaryMfe/Module": ["salaryMfe/src/remote-entry.ts"],
+      "employeeMfe/Routes": [
+        "employeeMfe/src/app/remote-entry/entry.routes.ts"
+      ],
+      "@payroll-system/shared": ["libs/shared/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
