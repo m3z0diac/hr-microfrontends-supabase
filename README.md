@@ -30,9 +30,10 @@ A polyglot microfrontend architecture (React Host + Angular Remote) for HR manag
 
 ## Commands to run
 
-```npm install```
-```npx nx serve employeeMfe --port=4205```
-```visit http://localhost:4200/```
+#### ```npm install```
+#### ```npx nx serve employeeMfe --port=4205```
+#### ```visit http://localhost:4200/```
 =======
 # hr-microfrontends-supabase
 A polyglot microfrontend architecture (React Host + Angular Remote) for HR management, powered by Supabase Auth &amp; DB.
+
